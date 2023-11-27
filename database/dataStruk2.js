@@ -1,4 +1,4 @@
-const questionsStruk = [
+const questionsStruk2 = [
     {
         id: 1,
         question: "ꦫꦗꦏꦪ aksara ing samping iki unine ___",
@@ -51,6 +51,6 @@ const questionsStruk = [
     }
 ];
 
-const answerStruk = [2, 0, 0, 3, 1];
+const answerStruk2 = [2, 0, 0, 3, 1];
 
-module.exports = { questionsStruk, answerStruk };
+module.exports = { questionsStruk2, answerStruk2 };
