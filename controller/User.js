@@ -30,10 +30,11 @@ module.exports.login = (req, res) => {
                 res.send({ code: 404, message: 'password wrong' })
             } else {
                 res.send({
+                    name: result.name,
                     email: result.email,
                     code: 200,
                     message: 'user Found',
-                    token: 'hfgdhg'
+                    token: result._id
                 })
             }
 

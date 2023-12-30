@@ -107,4 +107,94 @@ router.route('/resultman2')
         .delete(controller.dropResultMan2)
 /** ========= */
 
+/** Posttest */
+router.get('/questionpost', controller.getQuestionPost)
+router.post('/questionpost', controller.insertQuestionPost)
+
+router.route('/questionpost')
+        .get(controller.getQuestionPost)
+        .post(controller.insertQuestionPost)
+        .delete(controller.dropQuestionPost)
+
+router.route('/resultpost')
+        .get(controller.getResultPost)
+        .post(controller.storeResultPost)
+        .delete(controller.dropResultPost)
+/** ========= */
+
+/** Posttest2 */
+router.get('/questionpost2', controller.getQuestionPost2)
+router.post('/questionpost2', controller.insertQuestionPost2)
+
+router.route('/questionpost2')
+        .get(controller.getQuestionPost2)
+        .post(controller.insertQuestionPost2)
+        .delete(controller.dropQuestionPost2)
+
+router.route('/resultpost2')
+        .get(controller.getResultPost2)
+        .post(controller.storeResultPost2)
+        .delete(controller.dropResultPost2)
+/** ========= */
+
+/** Terstruktur 3 */
+router.get('/questionstruk3', controller.getQuestionStruk3)
+router.post('/questionsstruk3', controller.insertQuestionStruk3)
+
+router.route('/questionstruk3')
+        .get(controller.getQuestionStruk3)
+        .post(controller.insertQuestionStruk3)
+        .delete(controller.dropQuestionStruk3)
+
+router.route('/resultstruk3')
+        .get(controller.getResultStruk3)
+        .post(controller.storeResultStruk3)
+        .delete(controller.dropResultStruk3)
+/** ============= */
+
+/** Terstruktur 4 */
+router.get('/questionstruk4', controller.getQuestionStruk4)
+router.post('/questionsstruk4', controller.insertQuestionStruk4)
+
+router.route('/questionstruk4')
+        .get(controller.getQuestionStruk4)
+        .post(controller.insertQuestionStruk4)
+        .delete(controller.dropQuestionStruk4)
+
+router.route('/resultstruk4')
+        .get(controller.getResultStruk4)
+        .post(controller.storeResultStruk4)
+        .delete(controller.dropResultStruk4)
+/** ============= */
+
+/** Terstruktur 5 */
+router.get('/questionstruk5', controller.getQuestionStruk5)
+router.post('/questionsstruk5', controller.insertQuestionStruk5)
+
+router.route('/questionstruk5')
+        .get(controller.getQuestionStruk5)
+        .post(controller.insertQuestionStruk5)
+        .delete(controller.dropQuestionStruk5)
+
+router.route('/resultstruk5')
+        .get(controller.getResultStruk5)
+        .post(controller.storeResultStruk5)
+        .delete(controller.dropResultStruk5)
+/** ============= */
+
+/** Terstruktur 6 */
+router.get('/questionstruk6', controller.getQuestionStruk6)
+router.post('/questionsstruk6', controller.insertQuestionStruk6)
+
+router.route('/questionstruk6')
+        .get(controller.getQuestionStruk6)
+        .post(controller.insertQuestionStruk6)
+        .delete(controller.dropQuestionStruk6)
+
+router.route('/resultstruk6')
+        .get(controller.getResultStruk6)
+        .post(controller.storeResultStruk6)
+        .delete(controller.dropResultStruk6)
+/** ============= */
+
 module.exports = router;
