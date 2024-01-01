@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 config();
 
-mongoose.connect('mongodb://localhost:27017/pedagogical_agent', (err) => {
+mongoose.connect('mongodb+srv://satyaoktaprada:tzSv4nKHNyPVMc0h@server-exper-pa.h2y2cya.mongodb.net/', (err) => {
     if (err) {
         console.log('DB Err.');
     } else {
@@ -31,3 +31,5 @@ app.post('/login', userController.login);
 app.listen(5000, () => {
     console.log(`Server Berjalan di port 5000`);
 });
+
+module.exports = app;
