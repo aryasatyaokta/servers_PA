@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 config();
 
+mongoose.set('strictQuery', false);
 mongoose.connect('mongodb+srv://satyaoktaprada:tzSv4nKHNyPVMc0h@server-exper-pa.h2y2cya.mongodb.net/', (err) => {
     if (err) {
         console.log('DB Err.');
