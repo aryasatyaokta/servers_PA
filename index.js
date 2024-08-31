@@ -9,7 +9,7 @@ const router = require('./router/route');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: 'https://aksara-app.vercel.app' }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(morgan('tiny'));
