@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 config();
 
-mongoose.connect('mongodb+srv://satyaoktaprada:tzSv4nKHNyPVMc0h@server-exper-pa.h2y2cya.mongodb.net/', (err) => {
+mongoose.connect('mongodb+srv://hadiargaya:1NY6flGEMvubmmtt@clusterpedagogic.irvdl.mongodb.net/', (err) => {
     if (err) {
         console.log('DB Err.');
     } else {
